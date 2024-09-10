@@ -1,0 +1,14 @@
+Bootstrap: docker
+From: alpine:3.20.3
+
+%post
+   apk update
+   apk add nodejs
+   apk add npm
+   rm -rf /var/cache/apk/*
+
+%files
+   server.js /bin/server.js
+
+%runscript
+   echo "hello" 
