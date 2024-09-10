@@ -1,6 +1,6 @@
 # apptainer containers
 
-There are only `name.def files`, these needs to be built with `apptainer build path/name.sif path/to/name.def`.
+This is my repository directed to learn apptainer. You can find only `name.def` files, these needs to be built with `apptainer build path/name.sif path/to/name.def`.
 
 ## exercise
 
